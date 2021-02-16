@@ -20,7 +20,7 @@ const routes = [
     path: '/coaches/:id',
     component: CoachDetail,
     children: [
-      { path: '/contact', component: ContactCoach}
+      { path: 'contact', component: ContactCoach }
     ]
   },
   {
@@ -28,7 +28,7 @@ const routes = [
     component: CoachRegistration
   },
   {
-    path: '/request',
+    path: '/requests',
     component: RequestReceived
   },
   {
