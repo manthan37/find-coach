@@ -4,5 +4,8 @@ export default {
     },
     setCoaches(state, payload){
         state.coaches = payload;
+    },
+    setFetchTimeStemp(state){
+        state.lastFetch = new Date().getTime();
     }
 }
