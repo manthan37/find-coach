@@ -41,7 +41,6 @@ body{
   transition: all 0.3s ease-in;
 }
 
-.route-leave-active{}
 
 
 .route-enter-to,
