@@ -58,7 +58,7 @@ const router = createRouter({
   routes
 })
 
-router.beforeEach(function(to, from, next){
+router.beforeEach(function(to, _, next){
   if(to.meta.requiresAuth && !store.getters.isAuthenticated){
     next('/auth');
   } else if (to.meta.requiresUnauth && store.getters.isAuthenticated) {
