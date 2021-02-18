@@ -1,4 +1,4 @@
-# find-coach(Vuejs)
+# find-coach (Vuejs)
 
 ## Project setup
 ```
